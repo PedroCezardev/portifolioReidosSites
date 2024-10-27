@@ -2,7 +2,6 @@ import React from 'react'
 import style from './styles.module.scss';
 import { InView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 const Price = () => {
 

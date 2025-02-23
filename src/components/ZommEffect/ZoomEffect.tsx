@@ -118,7 +118,7 @@ const ZoomEffect = () => {
                     {splitText(' HTML, CSS, JavaScript, <br/> e técnicas de venda. <br/> Cada módulo garante um aprendizado.  ')}
                 </p>
                 <p id="next-text" className={style.nextText}>
-                    {splitText(' HPrático e eficiente. <br/> Domine habilidades valiosas <br/> e alcance o sucesso no mundo digital. ')}
+                    {splitText(' Prático e eficiente. <br/> Domine habilidades valiosas <br/> e alcance o sucesso no mundo digital. ')}
                 </p>
             </div>
         </section>

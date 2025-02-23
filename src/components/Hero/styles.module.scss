@@ -28,8 +28,11 @@
         gap: 100px;
     }
 
-    @media screen and (max-width: 1250px) {
-        gap: 60px;
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 60px;
+        gap: 150px;
     }
 
 }
@@ -39,9 +42,18 @@
     flex-direction: column;
     gap: 30px;
 
+    @media screen and (max-width: 768px) {
+        align-items: center;
+        gap: 15px;
+    }
+
     img {
         width: 200px;
         height: 100px;
+
+        @media screen and (max-width: 768px) {
+            width: 150px;
+        }
     }
 
     h1 {
@@ -61,6 +73,13 @@
             font-size: 24px;
         }
 
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+            text-align: center;
+            line-height: 33px;
+            letter-spacing: -1.5px;
+        }
+
     }
 
     h5 {
@@ -77,6 +96,12 @@
 
         @media screen and (max-width: 1000px) {
             font-size: 16px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 16px;
+            text-align: center;
+            line-height: 25px;
         }
 
     }
@@ -119,6 +144,13 @@
         font-weight: 600;
         line-height: 16px;   
         
+        @media screen and (max-width: 768px) {
+            white-space: nowrap;
+            padding-inline: 55px;
+            width: 100%;
+            margin-block: 20px;
+        }
+
     }
 }
 
@@ -195,6 +227,16 @@
             }
         }
 
+        @media screen and (max-width: 768px) {
+            width: 180px;   
+            left: 20%;
+            object-fit: cover;
+
+            img:nth-child(4) {
+                display: flex;
+            }
+        }
+
     }
 
     .pedro{
@@ -203,6 +245,13 @@
 
         @media screen and (max-width: 1250px) {
             width: 400px;
+        }
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            transform: translateY(50px);
+            transform: translateX(-25%);
+            position: relative;
+            margin-top: 40px;
         }
 
     }

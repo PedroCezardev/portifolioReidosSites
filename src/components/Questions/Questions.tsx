@@ -47,7 +47,7 @@ const Questions = () => {
                 </div>
             </div>
             <div className={style.rightSide}>
-                <Accordion 
+                <Accordion  
                     title="Como faço pra me cadastrar?"
                     content="Para se cadastrar, basta clicar no botão 'Me Inscrever' em baixo na direita."
                 />

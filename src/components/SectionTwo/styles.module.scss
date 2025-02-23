@@ -11,7 +11,7 @@
     margin: 0 auto;
 
     @media screen and (max-width: 1000px) {
-        padding: 20px;
+        padding-inline: 20px;
     }
 
 }
@@ -31,6 +31,14 @@
         line-height: 51.2px;
         max-width: 900px;
         margin-inline: auto;
+
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+            text-align: center;
+            line-height: 33px;
+            letter-spacing: -1.5px;
+        }
+
     }
 
     span {
@@ -58,6 +66,12 @@
     justify-content: center;
     gap: 85px;
     padding-block: 35px;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 30px;
+    }
+
 }
 
 .leftBox, .rightBox{
@@ -66,6 +80,11 @@
     padding-block: 40px;
     padding-inline: 30px;
     gap: 30px;
+
+    @media screen and (max-width: 768px) {
+        padding-inline: 15px;
+        gap: 20px;
+    }
 }
 
 .titleBox{
@@ -134,6 +153,12 @@
         font-style: normal;
         font-weight: 600;
         line-height: 16px; 
+
+        @media screen and (max-width: 768px) {
+            padding-inline: 46px;
+            width: 100%;
+        }
+
     }
 
 }

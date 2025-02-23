@@ -1,6 +1,13 @@
 .movingBars{
     padding-block: 130px;
     background: #040122;
+
+    @media screen and (max-width: 768px) {
+        padding-block: 0;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
 }
 
 .topBar{
@@ -16,6 +23,11 @@
     padding-block: 40px;
     position: relative;
     width: 110%;
+
+    @media screen and (max-width: 768px) {
+        padding-block: 20px;
+    }
+
 }
 
 .topBarContent{
@@ -35,6 +47,11 @@
         font-weight: 600;
         line-height: 27px;
         letter-spacing: 0.167px; // espaçamento entre as letras
+
+        @media screen and (max-width: 768px) {
+            font-size: 12px;
+        }
+
     }
 
 }
@@ -54,6 +71,11 @@
     position: relative;
     margin-bottom: 15px;
     bottom: 75px;
+
+    @media screen and (max-width: 768px) {
+        padding-block: 20px;
+        bottom: 33px;   
+    }
 }
 
 .bottomBarContent{
@@ -63,7 +85,7 @@
     justify-content: space-between;
     gap: 30px;
     width: 100%;
-    animation: scrolling-right 20s linear infinite; // animação infinita
+    animation: scrolling-right 20s linear infinite;
 
     span {
         color: var(--brand-black, #1c1c1c);
@@ -72,7 +94,11 @@
         font-style: normal;
         font-weight: 600;
         line-height: 27px;
-        letter-spacing: 0.167px; // espaçamento entre as letras
+        letter-spacing: 0.167px;
+
+        @media screen and (max-width: 768px) {
+            font-size: 12px;
+        }
     }
 }
 

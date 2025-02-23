@@ -10,7 +10,7 @@
 }
 
 .accordionToggle {
-    padding: 1em;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,11 @@
     line-height: 38px;
     transition: background-color 1s ease;
 
+    @media screen and (max-width: 1250px) {
+        padding: 0.7rem;
+        font-size: 18px;
+    }
+        
     @media screen and (max-width: 768px) {
         font-size: 14px;
         line-height: 20px;
@@ -39,7 +44,7 @@
 
 
 .icon {
-    display: inline-block; // Ensure that the icon is inline
+    display: inline-block; 
     margin-left: 0.5em; // Space out the icon from the title
     color: #4b3cff; // Set your desired color for the icon
     font-size: 2em; // Set the desired size
@@ -62,8 +67,12 @@
     transition: max-height 0.8s ease; // Smooth transition for max-height
     padding: 0 1em;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1250px) {
         font-size: 12px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        font-size: 10px;
     }
 }
 

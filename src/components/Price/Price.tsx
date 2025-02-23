@@ -35,7 +35,7 @@ const Price = () => {
                         </h5>
                     </motion.div>
                 )}
-            </InView>
+            </InView>   
             
             <InView  threshold={0.5} triggerOnce={false}>
             {({inView, ref}) => (

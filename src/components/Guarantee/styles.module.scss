@@ -10,11 +10,20 @@
     padding-inline: 90px;
     max-width: 1440px; // deixa o texto num tamanho maximo fixo
     margin-inline: auto; // deixa a margin da esquerda e direita igual
+
+    @media screen and (max-width: 1000px) {
+        padding-inline: 20px;
+    }
+
 }
 
 .top {
     display: flex;
     align-items: center; 
+
+    @media screen and (max-width: 1000px) {
+        gap: 30px;
+    }
 }
 
 .leftSide{
